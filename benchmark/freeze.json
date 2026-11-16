@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-16T03:05:54.213932+00:00",
+  "files": {
+    "starter\\data\\day6\\chunks.json": "8a492fdcd488306d70545738e8cc5fe945b1f1405e8c9abb6a38f0a331d4c22e",
+    "starter\\data\\day6\\manifest.json": "9b28c79eb1227d26f1f5b50b03d2eb03d04a436f7f9bad2f4a237c852a497e5e",
+    "benchmark\\dev.json": "65c5ab48534bd736ab54def8f13ac1ed492d30b987aba0432adcc87032ca5b33",
+    "benchmark\\test.json": "6c9bc23fb7b619c44e78142f79a3af54a2ab32c0a68af66ace7472cb40dc512e",
+    "benchmark\\protocol.json": "329aa99169d41704d953235214437c9f55e17a63ae9780edf58c0486cb9199ef"
+  },
+  "counts": {
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  }
+}

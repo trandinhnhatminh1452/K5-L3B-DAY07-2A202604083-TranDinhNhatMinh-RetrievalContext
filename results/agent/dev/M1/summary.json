@@ -1,0 +1,89 @@
+{
+  "config": "M1",
+  "split": "dev",
+  "model": "llama3.2:3b",
+  "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "freeze_sha256": "ff71f745319a9b92f6cc40600d222060b7f4d16fb3853eca3d9e43fdfe4b7301",
+  "code_sha256": "2b29be34484e8d6a63de72cff91f3ac843ee4e214dfb4d8bb0b848bb0f47115d",
+  "correct": {
+    "n": 4,
+    "N": 17,
+    "rate": 0.23529411764705882
+  },
+  "retrieval": {
+    "cases": 17,
+    "errors": 0,
+    "hit1": {
+      "n": 8,
+      "N": 15,
+      "rate": 0.5333333333333333
+    },
+    "hit3": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666
+    },
+    "collective_hit3": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666
+    },
+    "context_evidence": {
+      "n": 8,
+      "N": 15,
+      "rate": 0.5333333333333333
+    },
+    "median_original_ranking_ms": 3.7382000009529293
+  },
+  "agent": {
+    "cases": 17,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 17,
+      "N": 17
+    },
+    "grounded_answer": {
+      "0": 6,
+      "1": 2,
+      "2": 7,
+      "N": 15,
+      "mean": 1.0666666666666667
+    },
+    "citation_validity": {
+      "n": 16,
+      "N": 27
+    },
+    "answer_citation_coverage": {
+      "n": 10,
+      "N": 10
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 5,
+      "N": 15
+    }
+  },
+  "context_grades": {
+    "2": 8,
+    "0": 6,
+    "1": 1
+  },
+  "retrieval_calls_distribution": {
+    "1": 17
+  },
+  "median_agent_ms": 34188.458899998295,
+  "usage": {
+    "model_calls": 34,
+    "prompt_tokens": 27271,
+    "completion_tokens": 3491,
+    "service_cost_usd": 0
+  },
+  "cost_note": "Local service charges 0 USD; hardware/electricity unmeasured",
+  "reviewer": "TranDinhNhatMinh",
+  "student_verified": true,
+  "reviews_sha256": "fdc428d7d521657b497f6a4d36885071433508d7d58edd92d616fab46a68b9f1",
+  "traces_sha256": "63cd12b391189e05b6d5747e7138e7f6a40229aaa9d298838aad9dba93f35bd5"
+}

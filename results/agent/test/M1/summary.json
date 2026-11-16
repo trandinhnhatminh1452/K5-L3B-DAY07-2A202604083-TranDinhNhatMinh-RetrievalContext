@@ -1,0 +1,88 @@
+{
+  "config": "M1",
+  "split": "test",
+  "model": "llama3.2:3b",
+  "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "freeze_sha256": "ff71f745319a9b92f6cc40600d222060b7f4d16fb3853eca3d9e43fdfe4b7301",
+  "code_sha256": "2b29be34484e8d6a63de72cff91f3ac843ee4e214dfb4d8bb0b848bb0f47115d",
+  "correct": {
+    "n": 2,
+    "N": 7,
+    "rate": 0.2857142857142857
+  },
+  "retrieval": {
+    "cases": 7,
+    "errors": 0,
+    "hit1": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "hit3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "collective_hit3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_evidence": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8
+    },
+    "median_original_ranking_ms": 3.1528999998045038
+  },
+  "agent": {
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 3,
+      "1": 0,
+      "2": 2,
+      "N": 5,
+      "mean": 0.8
+    },
+    "citation_validity": {
+      "n": 2,
+      "N": 5
+    },
+    "answer_citation_coverage": {
+      "n": 2,
+      "N": 2
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 3,
+      "N": 5
+    }
+  },
+  "context_grades": {
+    "2": 4,
+    "0": 1
+  },
+  "retrieval_calls_distribution": {
+    "1": 7
+  },
+  "median_agent_ms": 31312.000899999475,
+  "usage": {
+    "model_calls": 14,
+    "prompt_tokens": 11133,
+    "completion_tokens": 1434,
+    "service_cost_usd": 0
+  },
+  "cost_note": "Local service charges 0 USD; hardware/electricity unmeasured",
+  "reviewer": "TranDinhNhatMinh",
+  "student_verified": true,
+  "reviews_sha256": "b06eb3a6a9606e1e80dfe46966b51b5418897e2e4fc1adee585c05239a591f75",
+  "traces_sha256": "8abd4cfbf25a365013f8e9e0907df730d9a8b368b14a6bb7b792c79c04fe9086"
+}

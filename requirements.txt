@@ -1,0 +1,4 @@
+# Reuse the Day 6 virtual environment, or install these into a Day 7 venv.
+psycopg[binary]==3.3.8
+python-dotenv>=1,<2
+sentence-transformers==5.1.2

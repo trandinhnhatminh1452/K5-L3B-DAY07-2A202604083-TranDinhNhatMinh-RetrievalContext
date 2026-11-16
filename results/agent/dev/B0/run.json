@@ -1,0 +1,42 @@
+{
+  "parameters": {
+    "split": "dev",
+    "config": "B0",
+    "method": "dense",
+    "budget_chars": 800,
+    "model": "llama3.2:3b",
+    "runtime": {
+      "ollama_version": {
+        "version": "0.40.15"
+      },
+      "model": "llama3.2:3b",
+      "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72"
+    },
+    "freeze_sha256": "ff71f745319a9b92f6cc40600d222060b7f4d16fb3853eca3d9e43fdfe4b7301",
+    "code_sha256": "2b29be34484e8d6a63de72cff91f3ac843ee4e214dfb4d8bb0b848bb0f47115d",
+    "filters": null,
+    "top_k": 3,
+    "max_searches": 4,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 4096,
+      "num_predict": 512
+    },
+    "prompt_sha256": "e742b13d834b93ccaee1619a0aed4fbac26d66ea05517ff9f183be768459774f"
+  },
+  "verified": {
+    "status": "ok",
+    "strategy": "C",
+    "verified_chunks": 283,
+    "dimensions": 384,
+    "embedding_provenance": "Day 6 run metadata; database does not store model identity",
+    "database_mode": "read-only",
+    "embedding_sample": {
+      "id": "8e05bce0c49c500573e953130df4e7cd4b3cef9c84b57b5e916293685dcaea08",
+      "cosine_similarity": 1.0
+    }
+  },
+  "started_utc": "2026-11-16T04:00:06.544903+00:00",
+  "setup_seconds": 13.322324599999774
+}

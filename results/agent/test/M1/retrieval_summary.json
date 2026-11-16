@@ -1,0 +1,25 @@
+{
+  "cases": 7,
+  "errors": 0,
+  "hit1": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "hit3": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "collective_hit3": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "context_evidence": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "median_original_ranking_ms": 3.1528999998045038
+}

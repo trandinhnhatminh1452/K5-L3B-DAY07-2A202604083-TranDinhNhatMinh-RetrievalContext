@@ -1,0 +1,227 @@
+{
+  "reviewer": "TranDinhNhatMinh",
+  "student_verified": true,
+  "reviews": [
+    {
+      "query_id": "q01",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained partial or full evidence (grade 2), but agent abstained due to strict threshold or early stop."
+    },
+    {
+      "query_id": "q02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 8a3be0ca on page 2 discusses developing every branch to its highest state of excellence for permanent prosperity.",
+        "Chunk 2190d92f on page 3 discusses developing every branch to its highest state of excellence for permanent prosperity.",
+        "Chunk 8dfcc38d on page 2 discusses developing every branch to its highest state of excellence for permanent prosperity."
+      ],
+      "reason": "Correctly identified development of every branch to highest state of excellence for permanent prosperity."
+    },
+    {
+      "query_id": "q03",
+      "answer_grade": 1,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 2d73de9a does not contain the UK regional terms."
+      ],
+      "reason": "Correctly and completely named 'hanging it out' and 'ca canae' with valid citation."
+    },
+    {
+      "query_id": "q04",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 3e02622d discusses soldiering causes generally but not the first mistaken belief.",
+        "Chunk 7d139056 discusses soldiering causes generally but not the first mistaken belief."
+      ],
+      "reason": "Failed to state output fallacy regarding throwing men out of work."
+    },
+    {
+      "query_id": "q05",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 60af39a4 on page 6 explains the distinction between instinct to take it easy and systematic relations with others.",
+        "Chunk 95b5d058 on page 6 explains the distinction between instinct to take it easy and systematic relations with others.",
+        "Chunk 7d139056 on page 6 explains the distinction between instinct to take it easy and systematic relations with others."
+      ],
+      "reason": "Partially described soldiering causes without full contrast."
+    },
+    {
+      "query_id": "q06",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 8bf626fc on page 10 discusses providing special incentives beyond customary practices to obtain workers' initiative."
+      ],
+      "reason": "Did not identify special incentive."
+    },
+    {
+      "query_id": "q07",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q08",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q09",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 031cb491 describes pig iron handling or Schmidt's character but lacks the $1.85 vs $1.15 wage comparison.",
+        "Chunk 9426d25e on page 14 states Schmidt received $1.85 vs $1.15 per day.",
+        "Chunk a4bc279f on page 19 states Schmidt received $1.85 vs $1.15 per day."
+      ],
+      "reason": "Correctly stated $1.85 daily pay compared to prior earnings."
+    },
+    {
+      "query_id": "q10",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 84c109ab on page 18 explicitly provides the 43% under load and 57% free from load percentages.",
+        "Chunk 9b8f8239 is background on pig iron handling without the 43%/57% law of heavy labor.",
+        "Chunk b9578385 is background on pig iron handling without the 43%/57% law of heavy labor."
+      ],
+      "reason": "Correctly stated 43% under load and 57% free from load."
+    },
+    {
+      "query_id": "q11",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        true,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 12f8ed42 on page 21 specifies the 21 pound optimal shovel load.",
+        "Chunk 9bffe351 on page 21 specifies the 21 pound optimal shovel load.",
+        "Chunk d7e0b183 describes shoveling study details without the 21 pound figure."
+      ],
+      "reason": "Correctly identified 21 pounds per shovel."
+    },
+    {
+      "query_id": "q12",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 6003a951 does not mention 26 years or 30,000-50,000 experiments.",
+        "Chunk 8eb97b91 on page 34 mentions the 26-year duration and 30,000 to 50,000 recorded experiments.",
+        "Chunk defd6c58 on page 35 mentions the 26-year duration and 30,000 to 50,000 recorded experiments."
+      ],
+      "reason": "Correctly identified 26 years and 30,000 to 50,000 experiments."
+    },
+    {
+      "query_id": "q13",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk af10c81d does not discuss recognizing worker improvements.",
+        "Chunk 32a2188e does not discuss recognizing worker improvements."
+      ],
+      "reason": "Failed to state adopting as establishment standard and paying cash premium."
+    },
+    {
+      "query_id": "q14",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q15",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained partial or full evidence (grade 2), but agent abstained due to strict threshold or early stop."
+    },
+    {
+      "query_id": "ua-dev-01",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'What percentage of U.S. manufacturing firms used Taylor's scientific management in 2025?'. Full 283-chunk scan finds no 2025/adoption-rate survey; historical examples cannot establish a 2025 national percentage."
+    },
+    {
+      "query_id": "ua-dev-02",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'What fixed dollar cash premium does Taylor prescribe for every accepted worker improvement?'. All premium/reward passages checked, including page 41: a cash premium is required but no universal fixed dollar amount is specified. Task-specific bonuses are not universal innovation awards."
+    }
+  ]
+}

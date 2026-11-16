@@ -1,0 +1,32 @@
+{
+  "selected_utc": "2026-11-16T09:13:26.975605+00:00",
+  "config": "M1",
+  "model": "llama3.2:3b",
+  "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "freeze_sha256": "ff71f745319a9b92f6cc40600d222060b7f4d16fb3853eca3d9e43fdfe4b7301",
+  "code_sha256": "2b29be34484e8d6a63de72cff91f3ac843ee4e214dfb4d8bb0b848bb0f47115d",
+  "ranking": [
+    "M1",
+    "E2",
+    "E1",
+    "B0"
+  ],
+  "artifacts_sha256": {
+    "results\\agent\\dev\\B0\\summary.json": "77c9a8b88c9c5cd42998773edd08bd1b5c6f934491f4a26ba5a3498db555f797",
+    "results\\agent\\dev\\B0\\reviews.json": "8f5e53f18f588ee377fec32415e7fbe6d6db873765262a5ca49d7e1c395da1e9",
+    "results\\agent\\dev\\B0\\traces.json": "3a4c658e76a5b77205f15414670522aad9604f6ad377a89ea5145aabcfac467a",
+    "results\\agent\\dev\\B0\\run.json": "e50f0713d78b325144c036426d17ecb9cb84dc1aaa51e5c3a71bc5e89d95e58f",
+    "results\\agent\\dev\\E1\\summary.json": "8da3fb8b1168b3ec9ffac15438128dfc1558ce63542816b883397cad7e948b6a",
+    "results\\agent\\dev\\E1\\reviews.json": "a664bff4f6f9a9ff4d2dbbb7438ac523f801c436ed2ea4a527c9753e06e3abb8",
+    "results\\agent\\dev\\E1\\traces.json": "bae0fea625d8f382ae32181bc59afa04bac070b97915fe16034ada5f09cd54c0",
+    "results\\agent\\dev\\E1\\run.json": "25812e5db23ced0cb2c59d5d09a02613ddad7b5d4894ca3b08cf45aea38b809c",
+    "results\\agent\\dev\\M1\\summary.json": "66cff51297c8e6e0ca763336a4542542328a075a19623c5d64c14da8f5942abd",
+    "results\\agent\\dev\\M1\\reviews.json": "fdc428d7d521657b497f6a4d36885071433508d7d58edd92d616fab46a68b9f1",
+    "results\\agent\\dev\\M1\\traces.json": "63cd12b391189e05b6d5747e7138e7f6a40229aaa9d298838aad9dba93f35bd5",
+    "results\\agent\\dev\\M1\\run.json": "9dfa64907b095988c4a55fded2156ed8807bd628317ce6f62ab5ca81a1011314",
+    "results\\agent\\dev\\E2\\summary.json": "d99fc4f2d93376d50df4415945cf350244da180e7f42540135cdc5b22265818d",
+    "results\\agent\\dev\\E2\\reviews.json": "c280470d53afa2d55e5d451960e395945b9c983e52ce313299219bb129cf39be",
+    "results\\agent\\dev\\E2\\traces.json": "1c23a9e11ec71a74a3d9b7fa10eaf007e4434241a4e85bda05f19ee6228c634c",
+    "results\\agent\\dev\\E2\\run.json": "cd982e29b5b9ebcc2d87b7d055649c15946dd267d99b00e0e733f0c0c0cdc55e"
+  }
+}

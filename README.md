@@ -21,6 +21,14 @@ Benchmark tối thiểu có **24 câu**: dev gồm 15 câu có đáp án và 2 c
 
 Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và biểu đồ; xây agent truy xuất và trả lời các câu hỏi về nội dung đó. Hoàn thành [thử thách nâng cao](ADVANCED.md) và đạt **ít nhất 90% benchmark test** để nhận 15 điểm bonus. Phần cơ bản tối đa 85 điểm; toàn bài tối đa 100 điểm.
 
+## Dùng lại dữ liệu cá nhân Day 6
+
+Xem [hướng dẫn kết nối Day 6](docs/DAY6_REUSE.md) để dùng lại PostgreSQL, 283 chunks cấu hình C và embedding 384 chiều, kèm lệnh kiểm tra và truy vấn thử.
+
+## Triển khai cá nhân Day 07
+
+Xem [hướng dẫn chạy agent và benchmark](docs/RUN_DAY07.md), [thiết kế đã thống nhất](docs/DAY07_PLAN.md) và [thuật ngữ](GLOSSARY.md). Bộ điều khiển Ollama thật, nhãn dev/test và giao thức so sánh nằm trong `src/` và `benchmark/`; kết quả từng lần chạy nằm trong `results/`.
+
 ## Bắt đầu
 
 1. Đọc [hướng dẫn](GUIDE.md), [rubric](RUBRIC.md) và [quy tắc](RULES.md).

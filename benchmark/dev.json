@@ -1,0 +1,258 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "According to the Introduction, how does Taylor suggest remedying inefficiency instead of searching for an unusual or extraordinary person?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 1,
+        "evidence": "Second. To try to convince the reader that the remedy for this inefficiency lies in systematic management, rather than in searching for some unusual or extraordinary man."
+      }
+    ],
+    "expected_answer": "By systematic management, rather than searching for an unusual or extraordinary person.",
+    "filter": {
+      "section": "introduction"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "According to Chapter I, beyond large dividends for a company or its owner, what else does maximum prosperity require of a business?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 2,
+        "evidence": "The words \"maximum prosperity\" are used, in their broad sense, to mean not only large dividends for the company or owner, but the development of every branch of the business to its highest state of excellence, so that the prosperity may be permanent."
+      }
+    ],
+    "expected_answer": "Develop every branch of the business to its highest state of excellence so that prosperity can be permanent.",
+    "filter": {
+      "section": "chapter_1"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What names are used in England and Scotland for the deliberate slowing down of work that Taylor calls \"soldiering\" in America?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 3,
+        "evidence": "Under working, that is, deliberately working slowly so as to avoid doing a full day's work, \"soldiering,\" as it is called in this country, \"hanging it out,\" as it is called in England, \"ca canae,\" as it is called in Scotland"
+      }
+    ],
+    "expected_answer": "In England it is called 'hanging it out'; in Scotland, 'ca canae'.",
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Of the three causes Taylor gives for deliberate soldiering, what is the first mistaken belief workers hold about increased output?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 4,
+        "evidence": "First. The fallacy, which has from time immemorial been almost universal among workmen, that a material increase in the output of each man or each machine in the trade would result in the end in throwing a large number of men out of work."
+      }
+    ],
+    "expected_answer": "They believe that a substantial increase in each worker's or machine's output will ultimately put many workers out of work.",
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How do the causes of natural soldiering and systematic soldiering differ?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 5,
+        "evidence": "This loafing or soldiering proceeds from two causes. First, from the natural instinct and tendency of men to take it easy, which may be called natural soldiering. Second, from more intricate second thought and reasoning caused by their relations with other men, which may be called systematic soldiering."
+      }
+    ],
+    "expected_answer": "Natural soldiering comes from men's instinct to take it easy; systematic soldiering comes from more complex reasoning caused by their relationships with other people.",
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "In the initiative-and-incentive system, what must a manager provide beyond the industry average to obtain workers' initiative?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 10,
+        "evidence": "The writer repeats, therefore, that in order to have any hope of obtaining the initiative of his workmen the manager must give some special incentive to his men beyond that which is given to the average of the trade."
+      }
+    ],
+    "expected_answer": "Give workers a special incentive beyond what is customary in the industry.",
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "According to Chapter II, who should take over the planning that workers previously did themselves, and what should that planning be based on?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 11,
+        "evidence": "Thus all of the planning which under the old system was done by the workman, as a result of his personal experience, must of necessity under the new system be done by the management in accordance with the laws of the science;"
+      }
+    ],
+    "expected_answer": "The management should take over the planning and carry it out according to scientific laws, instead of leaving workers to rely on personal experience.",
+    "filter": {
+      "section": "chapter_2"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "In Taylor's description of task management, how much is added to ordinary wages, and what conditions must a worker meet to receive it?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 12,
+        "evidence": "And whenever the workman succeeds in doing his task right, and within the time limit specified, he receives an addition of from 30 per cent to 100 per cent to his ordinary wages."
+      }
+    ],
+    "expected_answer": "An addition of 30% to 100% of ordinary wages for completing the task correctly within the specified time limit.",
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "In the example of Schmidt handling pig iron, what was his average daily pay under the new method, compared with the highest amount he had earned before?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 14,
+        "evidence": "And throughout this time he averaged a little more than $1.85 per day, whereas before he had never received over $1.15 per day, which was the ruling rate of wages at that time in Bethlehem."
+      }
+    ],
+    "expected_answer": "A little more than $1.85 per day under the new method, compared with no more than $1.15 per day before.",
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Under the law of heavy labor in the pig-iron example, when each pig weighs 92 pounds, what percentage of the day can a first-class worker remain under load, and what percentage must he be entirely free from the load?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 18,
+        "evidence": "For example, when pig iron is being handled (each pig weighing 92 pounds), a first-class workman can only be under load 43 per cent of the day. He must be entirely free from load during 57 per cent of the day."
+      }
+    ],
+    "expected_answer": "Remain under load for 43% of the day and be entirely free from the load for the remaining 57%.",
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In the shoveling experiment, what average load per shovel, in pounds, enabled a skilled shoveler to do the greatest amount of work in a day?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 21,
+        "evidence": "It is, of course, evident that no shoveler can always take a load of exactly 21 pounds on his shovel, but nevertheless, although his load may vary 3 or 4 pounds one way or the other, either below or above the 21 pounds, he will do his biggest day's work when his average for the day is about 21 pounds."
+      }
+    ],
+    "expected_answer": "About 21 pounds per shovel, averaged over the day.",
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Over approximately how many years did Taylor's metal-cutting experiments continue, and how many experiments were carefully recorded?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 34,
+        "evidence": "Experiments in this field were carried on, with occasional interruption, through a period of about 26 years, in the course of which ten different experimental machines were especially fitted up to do this work. Between 30,000 and 50,000 experiments were carefully recorded, and many other experiments were made, of which no record was kept."
+      }
+    ],
+    "expected_answer": "About 26 years, with occasional interruptions, and 30,000 to 50,000 experiments carefully recorded.",
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "If a worker's new method is found to be markedly superior to the old one, how should the company adopt it and recognize the worker who proposed it?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 41,
+        "evidence": "And whenever the new method is found to be markedly superior to the old, it should be adopted as the standard for the whole establishment. The workman should be given the full credit for the improvement, and should be paid a cash premium as a reward for his ingenuity."
+      }
+    ],
+    "expected_answer": "Adopt the new method as the standard throughout the establishment, give the worker full credit, and pay a cash premium for the worker's ingenuity.",
+    "answerable": true,
+    "evidence_groups": [
+      [
+        {
+          "source_id": "gutenberg-6435",
+          "page": 41,
+          "evidence": "And whenever the new method is found to be markedly superior to the old, it should be adopted as the standard for the whole establishment.",
+          "chunk_id": "cf9413eb7a7bb8982a894f033c16826c69b242c213244dc9ad3e9a550138f40c"
+        },
+        {
+          "source_id": "gutenberg-6435",
+          "page": 41,
+          "evidence": "The workman should be given the full credit for the improvement, and should be paid a cash premium as a reward for his ingenuity.",
+          "chunk_id": "a5484bbab3bacea90de123c0e8e3dcf3b8cb9486c0fce00499dde8b5903d0410"
+        }
+      ]
+    ],
+    "annotation_note": "Original gold preserved; all fragments required, not OR alternatives."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "When introducing scientific management, how many workers should be affected at a time initially, and what must happen before making the next change?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 42,
+        "evidence": "The first few changes which affect the workmen should be made exceedingly slowly, and only one workman at a time should be dealt with at the start. Until this single man has been thoroughly convinced that a great gain has come to him from the new method, no further change should be made."
+      }
+    ],
+    "expected_answer": "Initially work with one worker at a time and proceed very slowly; make no further change until that worker is thoroughly convinced the new method brings a great benefit.",
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Besides workers and employers, whom does Taylor identify as the often-overlooked third party, and why do they ultimately pay both wages and profits?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 44,
+        "evidence": "We overlook the third great party, the whole people,—the consumers, who buy the product of the first two and who ultimately pay both the wages of the workmen and the profits of the employers."
+      }
+    ],
+    "expected_answer": "The whole public, or consumers, who buy the products and ultimately pay both the workers' wages and the employers' profits.",
+    "answerable": true
+  },
+  {
+    "id": "ua-dev-01",
+    "split": "dev",
+    "question": "What percentage of U.S. manufacturing firms used Taylor's scientific management in 2025?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence in the collection.",
+    "expected_behavior": "search_and_abstain",
+    "gold": [],
+    "absence_reason": "Full 283-chunk scan finds no 2025/adoption-rate survey; historical examples cannot establish a 2025 national percentage."
+  },
+  {
+    "id": "ua-dev-02",
+    "split": "dev",
+    "question": "What fixed dollar cash premium does Taylor prescribe for every accepted worker improvement?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence in the collection.",
+    "expected_behavior": "search_and_abstain",
+    "gold": [],
+    "absence_reason": "All premium/reward passages checked, including page 41: a cash premium is required but no universal fixed dollar amount is specified. Task-specific bonuses are not universal innovation awards."
+  }
+]

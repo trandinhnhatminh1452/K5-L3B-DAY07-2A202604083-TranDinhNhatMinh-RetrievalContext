@@ -1,0 +1,73 @@
+{
+  "reviewer": "TranDinhNhatMinh",
+  "student_verified": true,
+  "reviews": [
+    {
+      "query_id": "q16",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q17",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Chunk a46f7108 on page 27 explains why bricklayers must rise at the same rate."
+      ],
+      "reason": "Gave general explanation of cooperation; failed to mention bricklayers working in a row with walls rising at the same rate."
+    },
+    {
+      "query_id": "q18",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q19",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q20",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "ua-test-01",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'How many factories in Vietnam adopted Taylor's scientific management during 2024?'. Full 283-chunk scan finds no 2024, Vietnam or Vietnamese occurrence; no national adoption count is supplied."
+    },
+    {
+      "query_id": "ua-test-02",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'What ISO certification number and certification renewal interval does Taylor require for scientific management?'. Full 283-chunk scan finds no standalone ISO or certification/audit specification; no certification number or renewal interval is supplied."
+    }
+  ]
+}

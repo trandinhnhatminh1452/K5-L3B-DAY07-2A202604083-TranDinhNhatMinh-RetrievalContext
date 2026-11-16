@@ -1,0 +1,98 @@
+[
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "According to Chapter II, from how many motions to how many did Gilbreth reduce the motions needed to lay a brick, and what was the lowest number achieved?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 25,
+        "evidence": "Through all of this minute study of the motions to be made by the bricklayer in laying bricks under standard conditions, Mr. Gilbreth has reduced his movements from eighteen motions per brick to five, and even in one case to as low as two motions per brick."
+      }
+    ],
+    "expected_answer": "From 18 motions down to 5 per brick, and in one case to as few as 2.",
+    "filter": {
+      "section": "chapter_2"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "In Gilbreth's bricklaying example, why could an individual bricklayer not greatly outpace the worker next to him, even after learning the improvements?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 26,
+        "evidence": "But even if, in the past, he did invent each one of Mr. Gilbreth's improvements, no bricklayer could alone increase his speed through their adoption because it will be remembered that in all cases several bricklayers work together in a row and that the walls all around a building must grow at the same rate of speed. No one bricklayer, then, can work much faster than the one next to him."
+      }
+    ],
+    "expected_answer": "Several bricklayers work together in a row and the surrounding walls must rise at the same rate, so one worker cannot work much faster than the next.",
+    "answerable": true
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "According to Chapter II, what quality did Thompson identify as most necessary when hiring bicycle-ball inspectors?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 28,
+        "evidence": "Mr. Thompson soon recognized that the quality most needed for bicycle ball inspectors was a low personal coefficient."
+      }
+    ],
+    "expected_answer": "A low personal coefficient.",
+    "filter": {
+      "section": "chapter_2"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "In the bicycle-ball inspection experiment, why did the foreman change the identifying number on each lot before reinspection, and what information was this meant to conceal from the re-inspector?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 29,
+        "evidence": "Each one of four of the most trust-worthy girls was given each day a lot of balls to inspect which had been examined the day before by one of the regular inspectors; the number identifying the lot to be over-inspected having been changed by the foreman so that none of the over-inspectors knew whose work they were examining."
+      }
+    ],
+    "expected_answer": "To hide which inspector had examined the lot before, so the re-inspector would not know whose work was being checked.",
+    "answerable": true
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "When hourly bicycle-ball inspection output was measured and a worker was found falling behind, how was management supposed to help that worker?",
+    "gold": [
+      {
+        "source_id": "gutenberg-6435",
+        "page": 30,
+        "evidence": "Before they finally worked to the best advantage it was found to be necessary to measure the output of each girl as often as once every hour, and to send a teacher to each individual who was found to be falling behind to find what was wrong, to straighten her out, and to encourage and help her to catch up."
+      }
+    ],
+    "expected_answer": "Send a teacher to investigate the problem, help correct it, encourage the worker, and help her catch up.",
+    "answerable": true
+  },
+  {
+    "id": "ua-test-01",
+    "split": "test",
+    "question": "How many factories in Vietnam adopted Taylor's scientific management during 2024?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence in the collection.",
+    "expected_behavior": "search_and_abstain",
+    "gold": [],
+    "absence_reason": "Full 283-chunk scan finds no 2024, Vietnam or Vietnamese occurrence; no national adoption count is supplied."
+  },
+  {
+    "id": "ua-test-02",
+    "split": "test",
+    "question": "What ISO certification number and certification renewal interval does Taylor require for scientific management?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence in the collection.",
+    "expected_behavior": "search_and_abstain",
+    "gold": [],
+    "absence_reason": "Full 283-chunk scan finds no standalone ISO or certification/audit specification; no certification number or renewal interval is supplied."
+  }
+]

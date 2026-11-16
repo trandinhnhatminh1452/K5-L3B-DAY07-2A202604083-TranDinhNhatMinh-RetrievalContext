@@ -1,0 +1,239 @@
+{
+  "reviewer": "TranDinhNhatMinh",
+  "student_verified": true,
+  "reviews": [
+    {
+      "query_id": "q01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 55e74f41 on page 1 explicitly mentions systematic management to remedy inefficiency.",
+        "Chunk 8e05bce0 does not mention systematic management remedy.",
+        "Chunk a7b66aad does not mention systematic management remedy."
+      ],
+      "reason": "Correctly identified systematic management as remedy, supported by cited chunk."
+    },
+    {
+      "query_id": "q02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 8a3be0ca on page 2 discusses developing every branch to its highest state of excellence for permanent prosperity.",
+        "Chunk 8dfcc38d on page 2 discusses developing every branch to its highest state of excellence for permanent prosperity.",
+        "Chunk 2190d92f on page 3 discusses developing every branch to its highest state of excellence for permanent prosperity."
+      ],
+      "reason": "Correctly identified development of every branch to highest state of excellence for permanent prosperity."
+    },
+    {
+      "query_id": "q03",
+      "answer_grade": 1,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 2d73de9a does not contain the UK regional terms.",
+        "Chunk 21c7963e does not contain the UK regional terms."
+      ],
+      "reason": "Correctly and completely named 'hanging it out' and 'ca canae' with valid citation."
+    },
+    {
+      "query_id": "q04",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 06ce0e80 discusses soldiering causes generally but not the first mistaken belief.",
+        "Chunk 3e02622d discusses soldiering causes generally but not the first mistaken belief.",
+        "Chunk 7d139056 discusses soldiering causes generally but not the first mistaken belief."
+      ],
+      "reason": "Failed to state output fallacy regarding throwing men out of work."
+    },
+    {
+      "query_id": "q05",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q06",
+      "answer_grade": 2,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        true,
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 8f9064be on page 10 discusses providing special incentives beyond customary practices to obtain workers' initiative.",
+        "Chunk 8bf626fc on page 10 discusses providing special incentives beyond customary practices to obtain workers' initiative.",
+        "Chunk eb12c6c8 on page 10 discusses providing special incentives beyond customary practices to obtain workers' initiative."
+      ],
+      "reason": "Correctly identified special incentive beyond customary standards."
+    },
+    {
+      "query_id": "q07",
+      "answer_grade": 1,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 32a2188e does not state management taking over planning.",
+        "Chunk 933d022e does not state management taking over planning."
+      ],
+      "reason": "Correctly stated management should take over planning based on scientific laws."
+    },
+    {
+      "query_id": "q08",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained partial or full evidence (grade 2), but agent abstained due to strict threshold or early stop."
+    },
+    {
+      "query_id": "q09",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        true,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 2649a263 describes pig iron handling or Schmidt's character but lacks the $1.85 vs $1.15 wage comparison.",
+        "Chunk 5825914b on page 13 states Schmidt received $1.85 vs $1.15 per day.",
+        "Chunk 031cb491 describes pig iron handling or Schmidt's character but lacks the $1.85 vs $1.15 wage comparison."
+      ],
+      "reason": "Incorrect or hallucinated wage figures (did not state $1.85 vs $1.15)."
+    },
+    {
+      "query_id": "q10",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 84c109ab on page 18 explicitly provides the 43% under load and 57% free from load percentages.",
+        "Chunk 7396b697 is background on pig iron handling without the 43%/57% law of heavy labor.",
+        "Chunk 031cb491 is background on pig iron handling without the 43%/57% law of heavy labor."
+      ],
+      "reason": "Correctly stated 43% under load and 57% free from load."
+    },
+    {
+      "query_id": "q11",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        true,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 12f8ed42 on page 21 specifies the 21 pound optimal shovel load.",
+        "Chunk 9bffe351 on page 21 specifies the 21 pound optimal shovel load.",
+        "Chunk d7e0b183 describes shoveling study details without the 21 pound figure."
+      ],
+      "reason": "Correctly identified 21 pounds per shovel."
+    },
+    {
+      "query_id": "q12",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained partial or full evidence (grade 2), but agent abstained due to strict threshold or early stop."
+    },
+    {
+      "query_id": "q13",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q14",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 8c2b3aa8 does not support the 'one worker at a time' principle."
+      ],
+      "reason": "Incorrect number of workers or failed to state one worker at a time."
+    },
+    {
+      "query_id": "q15",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        true,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk cf13e34c on page 44 identifies the third party (the whole people/consumers) who pay both wages and profits.",
+        "Chunk 171fb109 on page 44 identifies the third party (the whole people/consumers) who pay both wages and profits.",
+        "Chunk 5ddc2a9d discusses slow work causes, not the third party."
+      ],
+      "reason": "Correctly identified the whole people / consumers who ultimately pay both wages and profits."
+    },
+    {
+      "query_id": "ua-dev-01",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'What percentage of U.S. manufacturing firms used Taylor's scientific management in 2025?'. Full 283-chunk scan finds no 2025/adoption-rate survey; historical examples cannot establish a 2025 national percentage."
+    },
+    {
+      "query_id": "ua-dev-02",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'What fixed dollar cash premium does Taylor prescribe for every accepted worker improvement?'. All premium/reward passages checked, including page 41: a cash premium is required but no universal fixed dollar amount is specified. Task-specific bonuses are not universal innovation awards."
+    }
+  ]
+}

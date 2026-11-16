@@ -1,0 +1,39 @@
+{
+  "configs": {
+    "B0": [
+      "dense",
+      800
+    ],
+    "E1": [
+      "dense",
+      4000
+    ],
+    "M1": [
+      "tfidf",
+      4000
+    ],
+    "E2": [
+      "hybrid",
+      4000
+    ]
+  },
+  "top_k": 3,
+  "max_searches": 4,
+  "filters": null,
+  "context": "whole blocks, arrival order, ID deduplication; serialized characters",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 512
+  },
+  "selection": [
+    "correct/all",
+    "complete_context/answerable",
+    "original_strict_hit3/answerable",
+    "median_agent_ms_ascending",
+    "B0,E1,M1,E2"
+  ],
+  "errors_in_correctness_denominator": true,
+  "test_reuse": "Five answerable questions already evaluated in Day06; user confirms no test-based tuning."
+}

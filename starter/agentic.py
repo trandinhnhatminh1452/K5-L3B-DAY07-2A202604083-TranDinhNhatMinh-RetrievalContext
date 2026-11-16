@@ -3,6 +3,7 @@
 Adapters are intentionally not provided: Day 6 has no fixed database schema and
 model providers differ. Never use fake adapters to report benchmark quality.
 """
+import re
 from typing import Any, Protocol
 from baseline import pack_context
 
@@ -14,6 +15,7 @@ class Controller(Protocol):
         Search: {'action': 'search', 'query': '...'}.
         Final: {'action': 'answer', 'answer': '...', 'citations': ['chunk-id']}.
         Citations must also appear as [chunk-id] in the answer text.
+        Deliberate refusal: {'action': 'abstain', 'reason': '...'}.
         """
         ...
 
@@ -30,7 +32,8 @@ class Retriever(Protocol):
 
 def run_agent(question: str, controller: Controller, retriever: Retriever, *,
               filters: dict[str, Any] | None = None, max_searches: int = 4,
-              top_k: int = 3, budget: int = 800) -> dict[str, Any]:
+              top_k: int = 3, budget: int = 800,
+              event_log: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     """Return answer, citation IDs and trace; no benchmark gold enters this loop.
 
     A final answer without valid citations, an empty context, and a search limit
@@ -42,7 +45,7 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
     history: list[dict[str, Any]] = []
     chunks: dict[str, dict[str, Any]] = {}
     candidates: list[dict[str, Any]] = []
-    events: list[dict[str, Any]] = []
+    events: list[dict[str, Any]] = event_log if event_log is not None else []
     for _ in range(max_searches + 1):
         action = controller.decide(question, history)
         if action.get('action') == 'search':
@@ -51,6 +54,9 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             query = action.get('query')
             if not isinstance(query, str) or not query.strip():
                 raise ValueError('search query phải là chuỗi không rỗng')
+            if any(e['event'] == 'search' and e['query'] == query for e in events):
+                return {'status': 'abstain', 'answer': 'The collection does not provide sufficient evidence to answer this question.',
+                        'citations': [], 'events': events + [{'event': 'duplicate_query_stop', 'query': query}]}
             results = retriever.search(query, filters=filters, top_k=top_k)
             if len(results) > top_k or len({r['id'] for r in results}) != len(results):
                 raise ValueError('retriever phải trả tối đa top_k chunk ID duy nhất')
@@ -62,14 +68,25 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             # Send only the latest cumulative context; avoid multiplying the budget.
             history = [{'tool': 'search', 'queries': [e['query'] for e in events if e['event'] == 'search'],
                         'context': context, 'context_ids': ids}]
+        elif action.get('action') == 'abstain':
+            reason = action.get('reason')
+            if not isinstance(reason, str) or not reason.strip():
+                raise ValueError('abstain reason phải là chuỗi không rỗng')
+            if not events:
+                raise ValueError('agent phải tìm kiếm trước khi kết luận thiếu bằng chứng')
+            return {'status': 'abstain', 'answer': 'The collection does not provide sufficient evidence to answer this question.',
+                    'citations': [], 'events': events + [{'event': 'deliberate_abstention', 'reason': reason}]}
         elif action.get('action') == 'answer':
             answer, citations = action.get('answer'), action.get('citations')
             if not isinstance(answer, str) or not isinstance(citations, list) or any(not isinstance(i, str) for i in citations):
                 raise ValueError('answer/citations không hợp lệ')
-            valid = bool(answer.strip() and citations and all(i in chunks and f'[{i}]' in answer for i in citations))
+            mentioned = set(re.findall(r'\[([^\[\]\n]+)\]', answer))
+            valid = bool(answer.strip() and citations and len(citations) == len(set(citations))
+                         and mentioned == set(citations)
+                         and all(i in chunks and f'[{i}]' in answer for i in citations))
             if valid:
                 return {'status': 'answered', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'answer'}]}
             return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_or_missing_citations'}]}
         else:
-            raise ValueError('action phải là search hoặc answer')
+            raise ValueError('action phải là search, answer hoặc abstain')
     return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events}

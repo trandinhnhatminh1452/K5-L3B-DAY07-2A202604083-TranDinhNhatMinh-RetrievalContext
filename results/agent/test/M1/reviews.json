@@ -1,0 +1,83 @@
+{
+  "reviewer": "TranDinhNhatMinh",
+  "student_verified": true,
+  "reviews": [
+    {
+      "query_id": "q16",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained evidence (grade 2), but agent abstained due to strict threshold or early stopping."
+    },
+    {
+      "query_id": "q17",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q18",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        false,
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 6f590e99 discusses bicycle-ball inspection background without mentioning personal coefficient.",
+        "Chunk 37dc7f1e on page 28 explicitly mentions personal coefficient requirement for bicycle-ball inspectors."
+      ],
+      "reason": "Correctly identified 'low personal coefficient' as the required quality, supported by cited chunk."
+    },
+    {
+      "query_id": "q19",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained evidence (grade 2), but agent abstained due to strict threshold or early stopping."
+    },
+    {
+      "query_id": "q20",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true,
+        false,
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 359ab8b3 on page 30 explicitly describes sending a teacher to investigate, encourage, and help the worker catch up.",
+        "Chunk 8a30fd06 discusses bicycle-ball inspection context, not the specific teacher intervention.",
+        "Chunk 6f590e99 discusses bicycle-ball inspection context, not the specific teacher intervention."
+      ],
+      "reason": "Correctly stated sending a teacher to investigate, encourage, and help the worker catch up."
+    },
+    {
+      "query_id": "ua-test-01",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'How many factories in Vietnam adopted Taylor's scientific management during 2024?'. Full 283-chunk scan finds no 2024, Vietnam or Vietnamese occurrence; no national adoption count is supplied."
+    },
+    {
+      "query_id": "ua-test-02",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'What ISO certification number and certification renewal interval does Taylor require for scientific management?'. Full 283-chunk scan finds no standalone ISO or certification/audit specification; no certification number or renewal interval is supplied."
+    }
+  ]
+}

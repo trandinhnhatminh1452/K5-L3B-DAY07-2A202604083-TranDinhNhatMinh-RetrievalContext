@@ -1,0 +1,175 @@
+{
+  "reviewer": "TranDinhNhatMinh",
+  "student_verified": true,
+  "reviews": [
+    {
+      "query_id": "q01",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q02",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [
+        true
+      ],
+      "citation_reasons": [
+        "Chunk 2750ebfa on page 3 explicitly defines 'hanging it out' in England and 'ca canae' in Scotland."
+      ],
+      "reason": "Correctly and completely named 'hanging it out' and 'ca canae' with valid citation."
+    },
+    {
+      "query_id": "q04",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q05",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q06",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q07",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q08",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q09",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false
+      ],
+      "citation_reasons": [
+        "Chunk 031cb491 describes pig iron handling or Schmidt's character but lacks the $1.85 vs $1.15 wage comparison."
+      ],
+      "reason": "Incorrect or hallucinated wage figures (did not state $1.85 vs $1.15)."
+    },
+    {
+      "query_id": "q10",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q11",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained partial or full evidence (grade 2), but agent abstained due to strict threshold or early stop."
+    },
+    {
+      "query_id": "q12",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q13",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [
+        false
+      ],
+      "citation_reasons": [
+        "Chunk af10c81d does not discuss recognizing worker improvements."
+      ],
+      "reason": "Failed to state adopting as establishment standard and paying cash premium."
+    },
+    {
+      "query_id": "q14",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent abstained because retrieved context lacked evidence (context grade 0). Safe abstention under missing context."
+    },
+    {
+      "query_id": "q15",
+      "answer_grade": 0,
+      "context_grade": 2,
+      "abstention_correct": null,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Context contained partial or full evidence (grade 2), but agent abstained due to strict threshold or early stop."
+    },
+    {
+      "query_id": "ua-dev-01",
+      "answer_grade": null,
+      "context_grade": null,
+      "abstention_correct": true,
+      "citation_support": [],
+      "citation_reasons": [],
+      "reason": "Agent correctly abstained on unanswerable question 'What percentage of U.S. manufacturing firms used Taylor's scientific management in 2025?'. Full 283-chunk scan finds no 2025/adoption-rate survey; historical examples cannot establish a 2025 national percentage."
+    },
+    {
+      "query_id": "ua-dev-02",
+      "answer_grade": 0,
+      "context_grade": null,
+      "abstention_correct": false,
+      "citation_support": [
+        false
+      ],
+      "citation_reasons": [
+        "Chunk a5484bba does not support answering this unanswerable query."
+      ],
+      "reason": "Agent failed to abstain on unanswerable question 'What fixed dollar cash premium does Taylor prescribe for every accepted worker improvement?'; hallucinated an answer."
+    }
+  ]
+}
